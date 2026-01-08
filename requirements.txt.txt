@@ -1,0 +1,14 @@
+aiogram==3.7.0
+redis==5.0.1
+sqlalchemy==2.0.25
+alembic==1.13.1
+aiohttp==3.9.5
+cryptography==42.0.5
+python-dotenv==1.0.1
+qrcode==7.4.2
+pillow==10.3.0
+stripe==7.9.0
+yookassa==2.4.0
+celery==5.3.6
+flower==2.0.1
+pydantic==2.7.0
