@@ -49,9 +49,9 @@ class Config:
     """Конфигурация бота"""
     
     # Telegram
-    BOT_TOKEN = "8169564846:AAHAnZmm7AQmjp0bZuzrNiTLngHbLltx1eU"
-    ADMIN_IDS = [7955510536, 8297555155]  # ID администраторов
-    SUPPORT_CHAT_ID = -8297555155  # Чат техподдержки
+    BOT_TOKEN = ""
+    ADMIN_IDS = []  # ID администраторов
+    SUPPORT_CHAT_ID = -  # Чат техподдержки
     
     # Базы данных
     REDIS_URL = "redis://localhost:6379/0"
@@ -1482,4 +1482,5 @@ async def main():
         await on_shutdown(dp)
 
 if __name__ == "__main__":
+
     asyncio.run(main())
